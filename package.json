@@ -4,8 +4,7 @@
   "description": "A real-time push notification service using WebSockets.",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
-    "test": "echo \"No tests yet\" && exit 0"
+    "start": "node server.js"
   },
   "keywords": [
     "push-notifications",
