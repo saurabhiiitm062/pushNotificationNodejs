@@ -26,7 +26,7 @@ mongoose
   .catch((err) => console.log("Failed to connect to MongoDB:", err));
 
 app.get("/", (req, res) => {
-  res.send(200).json({
+  res.status(200).json({
     message: "Welcome to the Push Notification Server",
   });
 });
