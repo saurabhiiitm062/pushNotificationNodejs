@@ -1,5 +1,5 @@
 {
-  "name": "web-pushNotification Saurabh",
+  "name": "web-pushNotification-bySaurabh",
   "version": "1.0.0",
   "description": "A real-time push notification service using WebSockets.",
   "main": "server.js",
