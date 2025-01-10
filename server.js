@@ -28,7 +28,7 @@ mongoose
 
 app.get("/", (req, res) => {
   res.status(200).json({
-    message: "Welcome to the Push Notification Server",
+    message: "Welcome to the Push Notification Serverhh",
   });
 });
 
