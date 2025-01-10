@@ -1,4 +1,5 @@
 require("dotenv").config(); // Load environment variables
+const cors = require("cors");
 
 const express = require("express");
 const http = require("http");
@@ -15,7 +16,7 @@ const io = socketIo(server, {
     methods: ["GET", "POST"],
   },
 });
-
+app.use(cors());
 // MongoDB connection
 mongoose
   .connect(process.env.MONGO_URI, {
