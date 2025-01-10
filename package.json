@@ -1,0 +1,32 @@
+{
+  "name": "push-notification-service",
+  "version": "1.0.0",
+  "description": "A real-time push notification service using WebSockets.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"No tests yet\" && exit 0"
+  },
+  "keywords": [
+    "push-notifications",
+    "real-time",
+    "socket.io",
+    "backend"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^6.8.0",
+    "socket.io": "^4.7.0",
+    "dotenv": "^16.0.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/push-notification-service"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/push-notification-service/issues"
+  },
+  "homepage": "https://github.com/yourusername/push-notification-service#readme"
+}
