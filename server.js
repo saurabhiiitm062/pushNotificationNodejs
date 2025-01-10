@@ -5,6 +5,7 @@ const http = require("http");
 const socketIo = require("socket.io");
 const mongoose = require("mongoose");
 const Notification = require("./models/notificationModel"); // Assuming a separate model file
+const { matchesGlob } = require("path");
 
 const app = express();
 const server = http.createServer(app);
@@ -23,6 +24,12 @@ mongoose
   })
   .then(() => console.log("Connected to MongoDB"))
   .catch((err) => console.log("Failed to connect to MongoDB:", err));
+
+app.use("/", (req, res) => {
+  res.send(200).json({
+    message: "Welcome to the Push Notification Server",
+  });
+});
 
 // WebSocket setup
 io.on("connection", (socket) => {
