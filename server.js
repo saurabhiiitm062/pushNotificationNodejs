@@ -25,7 +25,7 @@ mongoose
   .then(() => console.log("Connected to MongoDB"))
   .catch((err) => console.log("Failed to connect to MongoDB:", err));
 
-app.use("/", (req, res) => {
+app.get("/", (req, res) => {
   res.send(200).json({
     message: "Welcome to the Push Notification Server",
   });
