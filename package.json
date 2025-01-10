@@ -12,7 +12,7 @@
     "socket.io",
     "backend"
   ],
-  "author": "Your Name",
+  "author": "Saurabh Kumar",
   "license": "MIT",
   "dependencies": {
     "express": "^4.18.2",
@@ -22,10 +22,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/push-notification-service"
+    "url": "https://github.com/saurabhiiitm062/pushNotificationNodejs"
   },
   "bugs": {
-    "url": "https://github.com/yourusername/push-notification-service/issues"
+    "url": "https://github.com/saurabhiiitm062/pushNotificationNodejs/issues"
   },
-  "homepage": "https://github.com/yourusername/push-notification-service#readme"
+  "homepage": "https://github.com/saurabhiiitm062/pushNotificationNodejs"
 }
